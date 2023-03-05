@@ -1,0 +1,122 @@
+.footer_first {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/elevator-4.jpg.jpg);
+    background-repeat: no-repeat;          
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:1200px) {
+    
+}
+
+@media screen and (max-width:1024px) {
+    .carousel-item img{
+        height: 400px !important; 
+    }
+    .slider-content-1{
+        font-size: 25px;
+    }
+    .slider-content-2{
+        font-size: 20px;
+    }
+    .links i{
+        font-size: 35px;
+    }
+    .why i{
+        font-size: 35px;
+    }
+    .why h5{
+        font-size: 18px;
+    }
+    .image h3{
+        font-size: 23px;
+    }
+    .dropdown-menu{
+        background-color: white;        
+    }
+    .dropdown-menu a{
+        color: black;        
+    }
+    .nav-item:not(:last-child){
+        border-bottom: 1px solid white;        
+        margin-bottom: 3px;
+    }
+    .link {
+        font-size: 25px;
+    }
+    .nedenbiz img{
+        height: 300px !important;
+    }
+    .icerik img{
+        display: none;
+    }
+    
+    
+}
+
+@media screen and (max-width:768px) {
+    .carousel-item img{
+        height: 350px !important; 
+    }    
+    .slider-content-1{
+        font-size: 20px;
+    }
+    .slider-content-2{
+        font-size: 16px;
+    }
+    .links i{
+        font-size: 30px;
+    }
+    .why i{
+        font-size: 30px;
+    }
+    .why h5{
+        font-size: 16px;
+    }
+    .image h3{
+        font-size: 20px;
+    }
+    .link {
+        font-size: 20px;
+    }
+    .neden{
+        display: none !important;
+    }
+    .hero-image{
+        display: none;
+    }
+    video{
+        display: block;
+    }
+    
+    
+}
+
+@media screen and (max-width:425px) {
+    .carousel-item img{
+        height: 250px ; 
+    }
+    .slider-content-1{
+        font-size: 16px;
+    }
+    .slider-content-2{
+        font-size: 14px;
+    }
+    .links i{
+        font-size: 25px;
+    }
+    .why i{
+        font-size: 25px;
+    }
+    .why h5{
+        font-size: 15px;
+    }
+    .link {
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    
+}
